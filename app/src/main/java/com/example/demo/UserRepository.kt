@@ -41,7 +41,7 @@ class UserRepository {
         .writeTimeout(30, TimeUnit.SECONDS)
         .build()
 
-    private val baseUrl = "BACKEND_URL" // Replace with your backend url
+    private val baseUrl = "https://20250508t212421-dot-first-nodejs-3491.uw.r.appspot.com/api/"
     private val sharedPreferences: SharedPreferences by lazy {
         MainActivity.getInstance().getSharedPreferences(USER_PREFS, Context.MODE_PRIVATE)
     }

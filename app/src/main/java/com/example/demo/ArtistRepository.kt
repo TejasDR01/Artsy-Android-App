@@ -27,7 +27,7 @@ class ArtistRepository {
         .build()
         
     private val retrofit = Retrofit.Builder()
-        .baseUrl("BACKEND_URL") // Replace with your backend url
+        .baseUrl("https://20250508t212421-dot-first-nodejs-3491.uw.r.appspot.com/api/") // Replace with your backend url
         .client(client)
         .addConverterFactory(GsonConverterFactory.create(gson))
         .build()
